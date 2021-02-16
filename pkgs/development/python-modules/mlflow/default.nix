@@ -21,6 +21,8 @@
 , gorilla
 , gunicorn
 , pytest
+, azure-storage-blob
+, prometheus-flask-exporter
 }:
 
 buildPythonPackage rec {
@@ -59,6 +61,8 @@ buildPythonPackage rec {
     sqlalchemy
     gorilla
     gunicorn
+    azure-storage-blob
+    prometheus-flask-exporter
   ];
 
   meta = with lib; {
