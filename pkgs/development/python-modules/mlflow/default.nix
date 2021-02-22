@@ -71,6 +71,6 @@ buildPythonPackage rec {
     license = licenses.asl20;
     maintainers = with maintainers; [ tbenst ];
     # missing prometheus-flask-exporter, not packaged in nixpkgs
-    broken = true; # 2020-08-15
+    broken = false; # 2020-08-15
   };
 }
