@@ -32,7 +32,7 @@ buildPythonPackage rec {
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "ca9cc2f654d705640df78b2148c3c77559c501465bb80b6fd85c9bce0d55a770";
+    sha256 = "12eaeb74a4c78713d549c3ae76f3889ac3ac25849bd1b069fe901c2f11e3dc78";
   };
 
   # run into https://stackoverflow.com/questions/51203641/attributeerror-module-alembic-context-has-no-attribute-config
